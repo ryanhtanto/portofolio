@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@200;400&family=Space+Grotesk&display=swap');
+html {
+	scroll-behavior: smooth;
+}
+* {
+  background-color: #000201;
+}
+
+/* navbar */
+.navbar-toggler{
+  border: solid white !important;
+}
+
+.navbar-toggler-icon{
+  color: white;
+  background-image: url('../images/toogle.png') !important;
+}
+
+.responsive-link img{
+  width: 27px;
+  height: auto;
+  transition: 0.5s;
+}
+
+.responsive-display-block a{
+  display: none;
+}
+
+.logo {
+  width: 7%;
+  height: auto;
+  margin-right: 20px;
+  /* border: solid white; */
+}
+
+.nav-item a{
+  opacity: .7;
+  font-size: large;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+.nav-item a:hover{
+  transition: 0.5s;
+  opacity: 1;
+  transform: translateY(-7px);
+  transition: 0.5s;
+}
+
+.nav-item a img{
+  width: 25px;
+  height: auto;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/* .nav-item a img:hover{
+  
+} */
+
+.nav-item{
+  padding-right: 10px;
+}
+/* end of navbar */
+
+/* introduce */
+.card{
+  width: 55%;
+}
+
+
+.box-area {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  color: #ffff;
+  font-size: 48px;
+}
+
+.mt-130{
+  margin-top: 75px;
+}
+
+.color-under{
+  color: #D3902A;
+}
+
+.introduce p{
+  color: #ffff;
+  opacity: 0.6;
+  margin-right: 100px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.dicoding-certification{
+  color: #D3902A;
+}
+
+.dicoding-certification:hover{
+  color: #ffff;
+}
+/* introduce */
+
+/* works */
+
+.works p{
+  color: #ffff;
+  opacity: 0.6;
+  margin-right: 100px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.brand-style-works{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.brand-style-works li {
+  padding: 30px;
+  flex-basis: 20%;
+  text-align: center;
+  position: relative;
+  color: #ffff;
+}
+
+.brand-style-works img {
+  opacity: .7;
+  transition: .3s;
+  max-height: 340px;
+  max-width: 340px;
+  cursor: pointer;
+  border-radius: 15px;
+  
+}
+
+ul.brand-style-works img:hover{
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+/* resume */
+
+.resume .col-md-7 li{
+  color: #ffff;
+  opacity: 0.6;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.resume p{
+  color: #ffff;
+}
+
+/* skills */
+.skills img{
+  width: 100px;
+  height: auto;
+}
+
+.skills button{
+  color: #000201;
+  background-color: #ffff;
+  transition: 0.5s;
+}
+.skills button:hover{
+  color: #ffff;
+  background-color: #000201;
+  border: solid #ffff;
+  transition: 0.5s;
+}
+
+.brand-style-2{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.brand-style-2 li {
+  padding: 30px;
+  flex-basis: 25%;
+  text-align: center;
+}
+
+.brand-style-2 img {
+  opacity: .7;
+  transition: .3s;
+  max-height: 150px;
+  max-width: 150px;
+  cursor: pointer;
+}
+
+ul.brand-style-2 img:hover{
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.skills p{
+  color: #ffff;
+  opacity: 0.6;
+  margin-right: 100px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* contact */
+
+.form-group label{
+  color: white;
+}
+
+/* footer */
+.footer-line{
+  width: 55%;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .mt-130{
+    margin-top: 20px;
+  }
+  .responsive-nav{
+    display: none;
+  }
+  .logo {
+    width: 12%;
+  }
+  .wrapper {
+    margin-left: 0px !important;
+  }
+  .introduce p{
+    margin-right: 0px;
+  }
+  .card{
+    display: none !important;
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+  .introduce p{
+    margin-right: 0px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .nav-link img{
+    display: none;
+  }
+  .responsive-display-block a{
+    display: block;
+  }
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffff; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+

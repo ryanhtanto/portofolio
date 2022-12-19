@@ -1,0 +1,32 @@
+export const projects = [
+        {
+                title: "Frontend and React Developer",
+                position: "Dicoding Academy",
+                company: "PT. Presentologics",
+                date: "Aug - Dec 2022",
+                desc1: "Created website project with Javascript library (React)",
+                desc2: "Learned State, Hooks, PWA, Service Worker",
+                desc3: "Improved skill how to develop frontend website especially using React",
+                desc4: "Learned how to develop website in expert way",
+        },
+        {
+                title: "Frontend Developer",
+                position: "Internship",
+                company: "PT. Hashmicro Solusi Indonesia",
+                date: "Feb - June 2022",
+                desc1: "Created website project with complex animation using GSAP library",
+                desc2: "Achived four landing page to publish the information needed by users",
+                desc3: "Improved skill how to develop frontend website",
+                desc4: "Collaborated with UI/UX team to achive design target",
+        },
+        {
+                title: "Shiba Hotel",
+                position: "Final Exam Project",
+                company: "Multimedia Nusantara University",
+                date: "May - June 2021",
+                desc1: "Achived to built hotel website used PHP Language with Laravel Framework.",
+                desc2: "Created booking feature for customer to order hotel room and CRUD (Create, Read, Update, Delete) feature for admin to assign new hotel category.",
+                desc3: "Improved skill how to develop frontend website",
+                desc4: "Collaborated with UI/UX team to achive design target",
+        },
+];
