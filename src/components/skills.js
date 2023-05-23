@@ -9,7 +9,7 @@ import mysql from "../images/skills/mysql.png"
 
 function Skills () {
         return (
-                <div className="container skills">
+                <div className="container skills" id="skills">
                         <h3 className="fw-bold box-area mt-5">Skills</h3>
                         <p>Some Framework & Tools Knowledge</p>
                         <div className="col-lg-12">

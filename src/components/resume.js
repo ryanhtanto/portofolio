@@ -3,7 +3,7 @@ import { projects } from "../data/data";
 
 function Resume() {
         return (
-                <div className="container">
+                <div className="container" id="resume">
                         <h3 className="fw-bold box-area mt-5">Resume</h3>
                         {projects.map((project) => (
                                 <div className="container resume">

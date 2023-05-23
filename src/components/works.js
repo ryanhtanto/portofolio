@@ -8,7 +8,7 @@ import coMoney from "../images/portofolio/CoMoney.png"
 const Works = () => {
         return (
                 <>
-                        <div className="container works">
+                        <div className="container works" id="works">
                                 <h3 className="fw-bold box-area mt-5">Works</h3>
                                 <p>Repository of projects that I worked before.</p>
                                 <div className="row"> 

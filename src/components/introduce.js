@@ -5,7 +5,7 @@ import Avatar from '../images/avatar.png'
 const Introduce = () => {
   return (
         <>
-                <div className="introduce container mt-130">
+                <div className="introduce container mt-130" id="home">
                         <div className="row ">
                                 <div className="col-lg-7 col-md-12 col-sm-12 ">
                                         <h1 className="fw-bold box-area m-0">Hello, </h1>

@@ -20,6 +20,7 @@ function Contact () {
                         });
                 }else{
                         Swal.fire({
+                                icon: 'error',
                                 title: 'You put the wrong information',
                                 showConfirmButton: false,
                                 timer: 2000,
@@ -27,7 +28,7 @@ function Contact () {
                 }
         }
         return (
-                <div className="container skills">
+                <div className="container skills" id="contact">
                         <h3 className="fw-bold box-area mt-5">Contact</h3>
                         <form onSubmit={onSubmit} className="col-lg-11">
                                 <div className="form-group">
