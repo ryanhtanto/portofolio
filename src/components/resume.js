@@ -4,7 +4,10 @@ import { projects } from "../data/data";
 function Resume() {
         return (
                 <div className="container" id="resume">
-                        <h3 className="fw-bold box-area mt-5">Resume</h3>
+                        <div className="d-flex">
+                                <h3 className="fw-bold box-area mt-5">Resume</h3>
+                        </div>
+                        
                         {projects.map((project) => (
                                 <div className="container resume">
                                         <div className="row">
@@ -25,8 +28,6 @@ function Resume() {
                                         </div>
                                 </div>
                         ))}
-                       
-                        {/* <ResumeList/> */}
                 </div>
         )   
 

@@ -6,6 +6,7 @@ import figma from "../images/skills/figma.webp"
 import gsap from "../images/skills/gsap.png"
 import laravel from "../images/skills/laravel.png"
 import mysql from "../images/skills/mysql.png"
+import redux from "../images/skills/redux.svg"
 
 function Skills () {
         return (
@@ -21,6 +22,7 @@ function Skills () {
                                         <li><img src={gsap} alt="logo" /></li>
                                         <li><img src={laravel} alt="logo" /></li>
                                         <li><img src={mysql} alt="logo" /></li>
+                                        <li><img src={redux} alt="logo" /></li>
                                 </ul>
                         </div>
                 </div>
