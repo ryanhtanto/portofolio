@@ -5,7 +5,7 @@ import console from "../images/portofolio/console.png"
 import colorBlind from "../images/portofolio/colorblind.png"
 import coMoney from "../images/portofolio/CoMoney.png"
 import YourPrinting from "../images/portofolio/yourprinting.png"
-import DscussionForum from "../images/portofolio/yourprinting.png"
+import DscussionForum from "../images/portofolio/discussion.png"
 
 const Works = () => {
         return (
