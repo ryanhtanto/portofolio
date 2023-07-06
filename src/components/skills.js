@@ -9,7 +9,7 @@ import mysql from "../images/skills/mysql.png"
 import redux from "../images/skills/redux.svg"
 import materialUI from "../images/skills/materualUI.png"
 import jest from "../images/skills/jest.png"
-import cypress from "../images/skills/cypress.png"
+import cypress from "../images/skills/cypress.svg"
 
 function Skills () {
         return (

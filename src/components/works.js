@@ -16,7 +16,7 @@ const Works = () => {
                                 <div className="row"> 
                                         <div className="col-lg-12">
                                                 <ul className="brand-style-works">
-                                                        <li data-aos="zoom-in"><a href="https://www.eva-hr.com/talent-management/"><img src={eva} alt="porto" /></a></li>
+                                                        <li data-aos="zoom-in"><a href="https://github.com/ryanhtanto/Eva-talent--terupdate-"><img src={eva} alt="porto" /></a></li>
                                                         <li data-aos="zoom-in" data-aos-delay="300"><a href="https://expert-color-blind.web.app/"><img src={colorBlind} alt="porto" /></a></li>
                                                         <li data-aos="zoom-in" data-aos-delay="600"><a href="https://github.com/ryanhtanto/Console-Rent-Website"><img src={console} alt="porto" /></a></li>
                                                         <li data-aos="zoom-in" data-aos-delay="900"><a href="https://github.com/ryanhtanto/Hotel-Website"><img src={vacay} alt="porto" /></a></li>
