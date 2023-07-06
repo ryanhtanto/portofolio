@@ -4,6 +4,8 @@ import vacay from "../images/portofolio/vacay.png"
 import console from "../images/portofolio/console.png"
 import colorBlind from "../images/portofolio/colorblind.png"
 import coMoney from "../images/portofolio/CoMoney.png"
+import YourPrinting from "../images/portofolio/yourprinting.png"
+import DscussionForum from "../images/portofolio/yourprinting.png"
 
 const Works = () => {
         return (
@@ -19,6 +21,8 @@ const Works = () => {
                                                         <li data-aos="zoom-in" data-aos-delay="600"><a href="https://github.com/ryanhtanto/Console-Rent-Website"><img src={console} alt="porto" /></a></li>
                                                         <li data-aos="zoom-in" data-aos-delay="900"><a href="https://github.com/ryanhtanto/Hotel-Website"><img src={vacay} alt="porto" /></a></li>
                                                         <li data-aos="zoom-in" data-aos-delay="1200"><a href="https://comoney-dicoding.web.app/"><img src={coMoney} alt="porto" /></a></li>
+                                                        <li data-aos="zoom-in" data-aos-delay="1200"><a href="https://yourprinting.id/"><img src={YourPrinting} alt="porto" /></a></li>
+                                                        <li data-aos="zoom-in" data-aos-delay="1200"><a href="https://discussion-forum-chi.vercel.app/"><img src={DscussionForum} alt="porto" /></a></li>
                                                 </ul>
                                         </div>
                                 </div>

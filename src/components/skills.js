@@ -7,6 +7,9 @@ import gsap from "../images/skills/gsap.png"
 import laravel from "../images/skills/laravel.png"
 import mysql from "../images/skills/mysql.png"
 import redux from "../images/skills/redux.svg"
+import materialUI from "../images/skills/materualUI.png"
+import jest from "../images/skills/jest.png"
+import cypress from "../images/skills/cypress.png"
 
 function Skills () {
         return (
@@ -23,6 +26,9 @@ function Skills () {
                                         <li><img src={laravel} alt="logo" /></li>
                                         <li><img src={mysql} alt="logo" /></li>
                                         <li><img src={redux} alt="logo" /></li>
+                                        <li><img src={materialUI} alt="logo" /></li>
+                                        <li><img src={jest} alt="logo" /></li>
+                                        <li><img src={cypress} alt="logo" /></li>
                                 </ul>
                         </div>
                 </div>
